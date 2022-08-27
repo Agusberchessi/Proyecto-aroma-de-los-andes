@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #B98389;
+    align-items: center;
+    height: 15vh;
+    max-width: 100%;
+}
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+header .titulo_principal{
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    padding-left: 20px;
+    line-height: 15vh;   
+
+}
+
+.navmenu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.link-item{
+    margin: 10px 15px;
+    line-height: 12vh;
+    width: auto;
+}
+   
+.navmenu li a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: #d16583;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+/* Usando GRID */
+.GRILLA{
+    font-family:  'Quicksand', sans-serif;
+    padding: 30px 0px 0px 0px;
+    background-color: #FFFCF7;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "titulo titulo"
+                         "corporales ambientales"
+                         "producto-1 producto-2";
+            
+}
+.tituloNuestrosProductos{
+    grid-area: titulo;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}   
+
+.perfumes_ambientales,
+.perfumes_corporales{
+    padding: 25px 0px;
+    line-height: 1.5;
+}
+
+.perfumes_corporales li{
+    grid-area: corporales;
+    list-style-type: none;
+    text-align: center;
+    font-size: 24px;
+   
+}
+
+.perfumes_ambientales li{
+    grid-area: ambientales;
+    list-style-type: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.producto-1{
+    grid-area: producto-1;
+    max-height: 80%;
+    width: 80%;
+    text-align: center;
+    padding-left: 35px;
+}
+.producto-2{
+    grid-area: producto-2;
+    max-height: 80%;
+    width: 80%;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.footer{
+    background-color: #B98389;
+    color: #FFFCF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px 15px;
+}
+
+.footer .iconos_redes{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.footer .iconos_redes a{
+    font-size: 34px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 1.6;
+    color: #FFFCF7;
+}
+
+
+.footer .direccion{
+    line-height: 1.6;
+}
+.footer .derechos_de_autor{
+    font-size: 18px;
+    line-height: 70px;
+}
+
+
+.footer .direccion,
+.footer .derechos_de_autor{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bolder;
+    padding: 10px 30px;
+}

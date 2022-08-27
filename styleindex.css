@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #B98389;
+    align-items: center;
+    height: 15vh;
+    max-width: 100%;
+}
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+header .titulo_principal{
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    padding-left: 20px;
+    line-height: 15vh;   
+
+}
+
+.navmenu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.link-item{
+    margin: 10px 15px;
+    line-height: 12vh;
+    width: auto;
+}
+   
+.navmenu li a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: #d16583;
+}
+.contenedor{
+    background-color: #FFFCF7;
+    display: flex;
+    flex-flow: inherit;
+    justify-content:center;
+    width: 100%;
+    height: 300vh;
+    height: max-content;
+    padding: 40px 0px 10px 0px;
+}
+
+.image1{
+    max-width: 100%;
+    max-height: 350px;
+}
+.image2{
+    max-width: 100%;
+    max-height: 350px;
+}
+.image3{
+    max-width: 100%;
+    max-height: 350px;
+}
+.image4{
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.sobre_nosotros{
+    padding: 18px 10px;
+    background-color: #FFFCF7;
+}
+.sobre_nosotros .tituloSobreNosotros{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    
+    
+}
+.sobre_nosotros p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 10px;
+    line-height: 1.5;
+    text-align:center;
+
+}
+
+
+
+.footer{
+    background-color: #B98389;
+    color: #FFFCF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px 15px;
+}
+
+.footer .iconos_redes{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+.footer .iconos_redes a{
+    font-size: 34px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 1.6;
+    color: #FFFCF7;
+    
+}
+
+
+.footer .direccion{
+    line-height: 1.6;
+}
+.footer .derechos_de_autor{
+    font-size: 18px;
+    line-height: 70px;
+}
+
+
+.footer .direccion,
+.footer .derechos_de_autor{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bolder;
+    padding: 10px 30px;
+}
+
+

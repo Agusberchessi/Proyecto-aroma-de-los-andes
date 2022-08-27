@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body{
+    background-color: #FFEEDB;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #C9184A ;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    padding: 15px;
+}
+
+.navbar a:hover{
+    background-color: #d1577a;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin: 30px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none;  
+}
+.img_notasflorales{
+    width: 50%;
+    height: 50%;
+}
+
+.info_fragancias h1{
+    font-size: 25px;
+    color:black;
+    margin: 30px 0px 0px 15px;
+}
+.info_fragancias h2{
+    font-size: 18px;
+    color:black;
+    margin: 30px 0px 0px 15px;
+
+}
+
+.tituloDireccion {
+    font-size: 25px;
+    color:black;
+    margin: 30px 0px 0px 15px;
+}
+
+#addres{
+    padding-top: 40px;
+}
+
+.direccion{
+    color: rgb(0, 0, 0);
+    font-size:large;
+    padding: 15px;
+}
+
+.derechos-de-autor{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    padding: 15px;
+    font-weight: bold;
+}
