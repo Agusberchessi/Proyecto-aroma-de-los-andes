@@ -1,41 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
- 
-body{
-    background-color: #FFEEDB;
-    font-family: 'Roboto', sans-serif;
+
+header{
+    background-color: #B98389;
+    align-items: center;
+    height: 15vh;
+    max-width: 100%;
 }
-.navbar{
-    background-color: #C9184A ;
-    margin: 0%;
+
+header .navbar{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-between;
 }
-.title{
+
+header .titulo_principal{
     font-size: 30px;
+    font-weight:bold;
     color: white;
-    text-align: end;
-    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    padding-left: 20px;
+    line-height: 15vh;   
+
 }
 
-.navbar a:hover{
-    background-color: #d1577a;
+.navmenu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
 }
 
-.navlinks li {
-    display: inline-block;
-    margin: 30px 20px;
+.link-item{
+    margin: 10px 15px;
+    line-height: 12vh;
+    width: auto;
 }
-a{
-    color: white;
+   
+.navmenu li a{
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     font-weight: bolder;
-    font-size: large;
-    list-style-type: none;  
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: #d16583;
 }
 .preguntas_frecuentes a{
     color: black;
@@ -65,25 +82,46 @@ a{
     padding: 5px;
     margin: 25px 15px;
 }
-.tituloDireccion {
-    font-size: 25px;
-    color:black;
-    margin: 30px 0px 0px 15px;
+
+.footer{
+    background-color: #B98389;
+    color: #FFFCF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px 15px;
 }
 
-#addres{
-    padding-top: 40px;
+.footer .iconos_redes{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
 }
 
-.direccion{
-    color: rgb(0, 0, 0);
-    font-size:large;
-    padding: 15px;
+.footer .iconos_redes a{
+    font-size: 34px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 1.6;
+    color: #FFFCF7;
+    
 }
 
-.derechos-de-autor{
-    color: rgb(0, 0, 0);
-    font-size: medium;
-    padding: 15px;
-    font-weight: bold;
+
+.footer .direccion{
+    line-height: 1.6;
+}
+.footer .derechos_de_autor{
+    font-size: 18px;
+    line-height: 70px;
+}
+
+
+.footer .direccion,
+.footer .derechos_de_autor{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bolder;
+    padding: 10px 30px;
 }

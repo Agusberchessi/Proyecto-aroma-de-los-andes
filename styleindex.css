@@ -67,19 +67,19 @@ header .titulo_principal{
 
 .image1{
     max-width: 100%;
-    max-height: 350px;
+    max-height: auto;
 }
 .image2{
     max-width: 100%;
-    max-height: 350px;
+    max-height: auto;
 }
 .image3{
     max-width: 100%;
-    max-height: 350px;
+    max-height: auto;
 }
 .image4{
     max-width: 100%;
-    max-height: 350px;
+    max-height: auto;
 }
 
 .sobre_nosotros{

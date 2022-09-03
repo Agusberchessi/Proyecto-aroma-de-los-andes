@@ -7,6 +7,7 @@
     <title>Productos</title>
     <link rel="stylesheet" href="./styleproductos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
     <!-- barra de navegacion -->
@@ -23,47 +24,57 @@
         </nav>
     </header>
 
-    <div class="GRILLA">
+    <div class="container p-3">
 
-        <div class="tituloNuestrosProductos">
+        <div class="tituloNuestrosProductos row p-3">
             <h2>NUESTROS PRODUCTOS</h2>
         </div>
-    
-        <section class="perfumes_corporales">
-            <ul class="perfumes_corporales">
-                <li>Amor Amor</li>
-                <li>Ange ou Demon</li>
-                <li>CH 212</li>
-                <li>CH 212 Sexy</li>
-                <li>Good Girl</li>
-                <li>La Vie est Belle</li>
-                <li>Safari</li>
-                <li>Shakira</li>
-                <li>Spirit</li>
-            </ul>
-        </section>
-    
-        <section class="perfumes_ambientales">
-            <ul class="perfumes_ambientales">
-                <li>Agua de Rosas</li>
-                <li>Deditos</li>
-                <li>Coco</li>
-                <li>Comfort</li>
-                <li>Conigli</li>
-                <li>Lavanda</li>
-                <li>Mimo</li>
-                <li>Mango</li>
-                <li>Kenzo</li>
-            </ul>
-        </section>
 
-        <div class="producto-1">
-            <img class="producto-1" src="https://images.pexels.com/photos/4202349/pexels-photo-4202349.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+        <div class="row">
+            <section class="perfumes_corporales col-md-6 col-12">
+                <ul class="perfumes_corporales">
+                    <li>Amor Amor</li>
+                    <li>Ange ou Demon</li>
+                    <li>CH 212</li>
+                    <li>CH 212 Sexy</li>
+                    <li>Good Girl</li>
+                    <li>La Vie est Belle</li>
+                    <li>Safari</li>
+                    <li>Shakira</li>
+                    <li>Spirit</li>
+                </ul>
+            </section>
+        
+            <section class="perfumes_ambientales col-md-6 col-12">
+                <ul class="perfumes_ambientales">
+                    <li>Agua de Rosas</li>
+                    <li>Deditos</li>
+                    <li>Coco</li>
+                    <li>Comfort</li>
+                    <li>Conigli</li>
+                    <li>Lavanda</li>
+                    <li>Mimo</li>
+                    <li>Mango</li>
+                    <li>Kenzo</li>
+                </ul>
+            </section>
         </div>
 
-        <div class="producto-2">
-            <img class="producto-2" src="https://images.pexels.com/photos/9147975/pexels-photo-9147975.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+        <div class="row">
+            <div class="producto-1 col-12 col-md-6">
+                <img class="producto-1" src="https://images.pexels.com/photos/4202349/pexels-photo-4202349.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+            </div>
+    
+            <div class="producto-2 col-12 col-md-6">
+                <img class="producto-2" src="https://images.pexels.com/photos/9147975/pexels-photo-9147975.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+            </div>
+
         </div>
+
+        
+       
+
+        
 
     </div>
 
