@@ -5,57 +5,20 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-
-header{
+.MiNavBar{
     background-color: #B98389;
     align-items: center;
-    height: 15vh;
-    max-width: 100%;
+    height: auto;
 }
 
-header .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
 
-header .titulo_principal{
-    font-size: 30px;
-    font-weight:bold;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 40px;
-    padding-left: 20px;
-    line-height: 15vh;   
-
-}
-
-.navmenu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-
-.link-item{
-    margin: 10px 15px;
-    line-height: 12vh;
-    width: auto;
-}
-   
-.navmenu li a{
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    font-weight: bolder;
-    list-style-type: none;
-    font-size: 18px;
-    color: white;
-    transition: 0.5s;
+.navbar a:hover{
+    background-color:  #FFFCF7;
     border-radius: 5px;
 }
-.navbar a:hover{
-    background-color: #d16583;
-}
-.preguntas_frecuentes a{
+
+
+/* .preguntas_frecuentes a{
     color: black;
     margin: 15px;
 
@@ -64,7 +27,7 @@ header .titulo_principal{
     font-size: large;
     font-weight: bold;
     margin: 15px;
-}
+} */
 .dudas_adicionales{
     margin-top: 30px;
 }
@@ -73,20 +36,15 @@ header .titulo_principal{
     border: 2px solid black;
     width: 400px;
     height: 200px;
+    border-radius: 5px;
 }
 .enviar_boton{
     margin: 5px 15px;
 }
-.volver_boton a{
-    color: black;
-    border: 3px solid #d1577a;
-    padding: 5px;
-    margin: 25px 15px;
-}
 
 .footer{
     background-color: #B98389;
-    color: #FFFCF7;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -106,7 +64,7 @@ header .titulo_principal{
     width: 45px;
     height: 45px;
     line-height: 1.6;
-    color: #FFFCF7;
+    color: black;
     
 }
 
@@ -126,3 +84,21 @@ header .titulo_principal{
     font-weight:bolder;
     padding: 10px 30px;
 }
+
+@media screen and (max-width:764px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .footer .direccion,
+    .footer .derechos_de_autor,
+    .footer .iconos_redes{
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+}
+

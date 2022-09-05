@@ -6,72 +6,29 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-header{
+.MiNavBar{
     background-color: #B98389;
     align-items: center;
-    height: 15vh;
-    max-width: 100%;
+    height: auto;
+    
 }
 
-header .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-
-header .titulo_principal{
-    font-size: 30px;
-    font-weight:bold;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 40px;
-    padding-left: 20px;
-    line-height: 15vh;   
-
-}
-
-.navmenu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-
-.link-item{
-    margin: 10px 15px;
-    line-height: 12vh;
-    width: auto;
-}
-   
-.navmenu li a{
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    font-weight: bolder;
-    list-style-type: none;
-    font-size: 18px;
-    color: white;
-    transition: 0.5s;
+.navbar a:hover{
+    background-color:  #FFFCF7;
     border-radius: 5px;
 }
-.navbar a:hover{
-    background-color: #d16583;
-}
-.borde_formulario{
-    border: 3px solid black;
-    max-width: 500px;
-    margin: 25px;
-    padding: 15px;
-}
-.promociones{
-    margin: 0px 25px;
-}
-.formulario_contenido{
-    padding: 10px;
-    text-align: justify;
+
+/* Problema con el :focus */
+
+.form-control:focus{
+    border-color: #B98389;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .footer{
     background-color: #B98389;
-    color: #FFFCF7;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -91,7 +48,7 @@ header .titulo_principal{
     width: 45px;
     height: 45px;
     line-height: 1.6;
-    color: #FFFCF7;
+    color:black;
     
 }
 
@@ -104,10 +61,27 @@ header .titulo_principal{
     line-height: 70px;
 }
 
-
 .footer .direccion,
 .footer .derechos_de_autor{
     font-family: 'Quicksand', sans-serif;
     font-weight:bolder;
     padding: 10px 30px;
 }
+
+@media screen and (max-width:764px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .footer .direccion,
+    .footer .derechos_de_autor,
+    .footer .iconos_redes{
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+}
+
