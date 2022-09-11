@@ -3,9 +3,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.MiNavBar{
+    background-color: #B98389;
+    align-items: center;
+    height: auto;
+    
 }
 
-header{
+/* header{
     background-color: #B98389;
     align-items: center;
     height: 15vh;
@@ -50,9 +57,10 @@ header .titulo_principal{
     color: white;
     transition: 0.5s;
     border-radius: 5px;
-}
+} */
 .navbar a:hover{
-    background-color: #d16583;
+    background-color:  #FFFCF7;
+    border-radius: 5px;
 }
 
 
@@ -125,7 +133,7 @@ header .titulo_principal{
 
 .footer{
     background-color: #B98389;
-    color: #FFFCF7;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -144,9 +152,8 @@ header .titulo_principal{
     width: 45px;
     height: 45px;
     line-height: 1.6;
-    color: #FFFCF7;
+    color: black;
 }
-
 
 .footer .direccion{
     line-height: 1.6;
@@ -163,3 +170,22 @@ header .titulo_principal{
     font-weight:bolder;
     padding: 10px 30px;
 }
+
+@media screen and (max-width:764px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .footer .direccion,
+    .footer .derechos_de_autor,
+    .footer .iconos_redes{
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+}
+
+
