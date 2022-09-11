@@ -5,8 +5,14 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+.MiNavBar{
+    background-color: #B98389;
+    align-items: center;
+    height: auto;
+    
+}
 
-header{
+/* header{
     background-color: #B98389;
     align-items: center;
     height: 15vh;
@@ -51,7 +57,7 @@ header .titulo_principal{
     color: white;
     transition: 0.5s;
     border-radius: 5px;
-}
+} */
 .navbar a:hover{
     background-color: #FFFCF7;
     border-radius: 5px;
