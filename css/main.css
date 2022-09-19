@@ -66,14 +66,69 @@ header .navbar a:hover {
     line-height: 80px;
     padding: 30px 30px 0px 30px; }
 
+.Miletra {
+  font-family: "Quicksand", sans-serif; }
+  .Miletra .tituloNuestrosProductos {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 15px; }
+
+.perfumes {
+  font-family: "Quicksand", sans-serif; }
+  .perfumes .subtitulo-perfumes {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; }
+  .perfumes .perfumes_ambientales,
+  .perfumes .perfumes_corporales {
+    padding: 20px 0px;
+    line-height: 1.5; }
+  .perfumes li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px; }
+
+.producto-1 {
+  max-height: 80%;
+  width: 80%;
+  text-align: center;
+  padding-left: 35px; }
+
+.producto-2 {
+  max-height: 80%;
+  width: 80%;
+  text-align: center;
+  padding-left: 35px; }
+
+.container .borde {
+  border: #B98389 solid 2px;
+  border-radius: 5px; }
+
+.container .notas {
+  font-family: "Quicksand", sans-serif;
+  color: #B98389; }
+
+#exampleFormControlInput1:focus,
+#exampleFormControlTextarea1:focus,
+.form-control:focus {
+  border-color: #B98389;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
 @media screen and (max-width: 764px) {
   .footer {
     display: flex;
     flex-direction: column;
     padding-top: 15px;
-    justify-content: center; }
-  .footer .direccion,
-  .footer .derechos_de_autor,
-  .footer .iconos_redes {
-    text-align: center;
-    font-size: 1rem; } }
+    justify-content: center;
+    padding: 10px 5px; }
+    .footer .direccion,
+    .footer .derechos_de_autor,
+    .footer .iconos_redes {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.6; }
+    .footer .direccion {
+      padding: 10px 12px 5px 12px; }
+    .footer .derechos_de_autor {
+      padding: 10px 10px 5px 10px; } }

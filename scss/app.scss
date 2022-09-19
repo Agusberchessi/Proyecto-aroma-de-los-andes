@@ -21,8 +21,7 @@ header{
     .image4{
         max-width: 100%;
         max-height: auto;
-    }
-    
+    }    
 }
 
 .sobre_nosotros{
@@ -43,7 +42,6 @@ header{
         text-align:center;
     }
 }
-
 .footer{
     background-color: $primary-color;
     color: black;
@@ -64,7 +62,6 @@ header{
             height: 50px;
             line-height: 1.6;
             color: black;
-         
 
             &:hover{
                 background-color: $secondary-color;
@@ -84,21 +81,94 @@ header{
     }
 }
 
+//  ESTILO DE PRODUCTOS
+.Miletra{
+    font-family: $my-typography;
+    .tituloNuestrosProductos{
+        text-align: center;
+        font-size: 23px;
+        padding-top: 15px;
+    }   
+}    
+.perfumes{
+    font-family: $my-typography;
+    .subtitulo-perfumes{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .perfumes_ambientales,
+    .perfumes_corporales{
+    padding: 20px 0px;
+    line-height: 1.5;
+    }
+    li{ 
+        list-style-type: none;
+        text-align: center;
+        font-size: 18px;  
+    }
+}
+
+.producto-1{
+    max-height: 80%;
+    width: 80%;
+    text-align: center;
+    padding-left: 35px;
+}
+.producto-2{
+    max-height: 80%;
+    width: 80%;
+    text-align: center;
+    padding-left: 35px;
+}
+
+// FRAGANCIAS
+
+.container{
+    .borde{
+        border: $primary-color solid 2px;
+        border-radius: 5px;
+    }
+    .notas{
+        font-family: $my-typography;
+        color: $primary-color;
+    }
+}
+
+// FORM DE CONTACTO
+
+#exampleFormControlInput1:focus,
+#exampleFormControlTextarea1:focus,
+.form-control:focus{
+    border-color: $primary-color;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+// Media querys
+
 @media screen and (max-width:764px) {
     .footer{
         display: flex;
         flex-direction: column;
         padding-top: 15px;
         justify-content: center;
-    }
-    .footer .direccion,
-    .footer .derechos_de_autor,
-    .footer .iconos_redes{
+        padding: 10px 5px;
+        .direccion,
+        .derechos_de_autor,
+        .iconos_redes{
         text-align: center;
         font-size: 1rem;
-    
-    }
-    
+        line-height: 1.6;
+        }
+        .direccion{ 
+        padding:10px 12px 5px 12px ;
+        }
+        .derechos_de_autor {
+        padding: 10px 10px 5px 10px; 
+        }
+    }    
 }
 
 
