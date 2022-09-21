@@ -25,10 +25,11 @@ header .navbar a:hover {
   padding: 18px 10px; }
   .sobre_nosotros .tituloSobreNosotros {
     font-family: "Quicksand", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
     text-align: center; }
-  .sobre_nosotros p {
+  .sobre_nosotros .info-SN {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -70,7 +71,7 @@ header .navbar a:hover {
   font-family: "Quicksand", sans-serif; }
   .Miletra .tituloNuestrosProductos {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 15px; }
 
 .perfumes {
@@ -90,23 +91,29 @@ header .navbar a:hover {
 
 .producto-1 {
   max-height: 80%;
-  width: 80%;
+  width: 60%;
   text-align: center;
   padding-left: 35px; }
 
 .producto-2 {
   max-height: 80%;
-  width: 80%;
+  width: 60%;
   text-align: center;
   padding-left: 35px; }
 
-.container .borde {
-  border: #B98389 solid 2px;
-  border-radius: 5px; }
-
-.container .notas {
-  font-family: "Quicksand", sans-serif;
-  color: #B98389; }
+.container {
+  font-size: 18px; }
+  .container .notas-letra {
+    color: #090809; }
+  .container .MisImg {
+    display: flex;
+    justify-content: space-evenly; }
+    .container .MisImg .Img1, .container .MisImg .Img2, .container .MisImg .Img3 {
+      width: 35%;
+      height: 55%;
+      padding: 0px 8px; }
+  .container .bloque-color {
+    background-color: #DDCECD; }
 
 #exampleFormControlInput1:focus,
 #exampleFormControlTextarea1:focus,
@@ -115,7 +122,17 @@ header .navbar a:hover {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-@media screen and (max-width: 764px) {
+.form-contacto {
+  background-image: url(/imagenes/fondoperfumegris.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 576px) {
+  .sobre_nosotros .info-SN {
+    font-size: 18px; } }
+
+@media screen and (max-width: 768px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -131,4 +148,15 @@ header .navbar a:hover {
     .footer .direccion {
       padding: 10px 12px 5px 12px; }
     .footer .derechos_de_autor {
-      padding: 10px 10px 5px 10px; } }
+      padding: 10px 10px 5px 10px; }
+  .BloqueFragancias {
+    font-size: 14px; }
+  .container .MisImg {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .container .MisImg .Img1, .container .MisImg .Img2, .container .MisImg .Img3,
+    .container .MisImg .Img2,
+    .container .MisImg .Img3 {
+      width: 90%;
+      height: 90%; } }
