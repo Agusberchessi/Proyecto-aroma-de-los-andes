@@ -12,6 +12,9 @@ header {
         background-color: $primary-color;
         align-items: center;
         height: auto;
+        h1{
+            font-size: map-get($font-sz, font-xl );
+        }
     } 
     .navbar a:hover{
         background-color: $secondary-color;
@@ -165,9 +168,22 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+main{
+    min-height: 80vh;
+}
+
+
 // Media querys
 
 @media screen and (max-width: 576px) {
+    header{
+        .MiNavBar{
+            h1{
+                font-size: map-get($font-sz, font-m );
+            }
+        }
+    }
     .sobre_nosotros{
         .info-SN{
             font-size: map-get($font-sz, font-s );

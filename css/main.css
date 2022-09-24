@@ -9,6 +9,8 @@ header .MiNavBar {
   background-color: #B98389;
   align-items: center;
   height: auto; }
+  header .MiNavBar h1 {
+    font-size: 30px; }
 
 header .navbar a:hover {
   background-color: #EDE3E4;
@@ -128,7 +130,12 @@ header .navbar a:hover {
   background-size: cover;
   background-repeat: no-repeat; }
 
+main {
+  min-height: 80vh; }
+
 @media screen and (max-width: 576px) {
+  header .MiNavBar h1 {
+    font-size: 20px; }
   .sobre_nosotros .info-SN {
     font-size: 18px; } }
 
